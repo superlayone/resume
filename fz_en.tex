@@ -1,0 +1,294 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Zhen}{Fang}{Master of CS from XiDian University} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{About}
+    No.1,Tai Bai Nan Rd.
+    YanTa District.
+    Xi'an, Shaanxi 710071
+    China
+    ~
+    +086 13679120182
+    ~
+    \href{https://github.com/fz1989}{Github://fz1989}
+    \href{mailto:fz1989fz@gmail.com}{fz1989fz@gmail.com}
+\section{Languages}
+Chinese mother tongue
+English
+\section{programming}
+Python, C/C++
+\end{aside}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2011--2012}
+{Masters {\normalfont of Computer Science}}
+{XiDian University}
+{\emph{Scheduling on Cloud Plantform} \\Mainly engaged in Allocation of resources on computing platform, such as the virtual machine resource allocations, virtual machine placement policies, the allocation of resources for tasks and task execution order and other related research.}
+%------------------------------------------------
+\entry
+{2007--2008}
+{Bachelor {\normalfont of Computer Science}}
+{XiDian University}
+{Specialization in Computer Science and won the scholarship many times}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Project}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013--Now}
+{Electromagnetic Collaborative Cloud Computing Platform}
+{XiDian University}
+{Develop automated deployment of electromagnetic calculation on the OpenStack platform with OpenMPI, which supports dynamic deployment, reasonable resource scheduling, live migration and disaster recovery.\\
+Detailed duty:
+\begin{itemize}
+\item Responsible for the system design.
+\item Research on cloud computing platform for resource and task scheduling.
+\item Responsible for the overall preparation of background task processing system.\\Including:
+  \begin{itemize}
+    \item In server, database design and the server programming.
+    \item In client, receive server control commands and returns the execution status.
+    \item Process input/output file transmission as well as the design of service interfaces.
+  \end{itemize}
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2014}
+{Traffic Data Collection Project}
+{XiDian University}
+{On this project we use the API of the camera on the traffic light to get the car passing by information. 
+We write receiving and storage system to handle large photos taken by the camera of the traffic lights. We improve the sending and receiving capability of original systems by a factor of 5 times.\\
+Detailed duty:
+\begin{itemize}
+  \item Responsible for receiving program and database services program design.
+  \item Multi-Thread processing the photo collected by the camera in the server side.
+\end{itemize}
+}
+%------------------------------------------------
+\entry
+{2013}
+{iXiangche}
+{iXiangche Team}
+{\href{http://www.ixiangche.com/}{iXiangche} is a positioning in the car "after buying service" Internet platform in the market. Integrating offline auto service shops sources, targeting the local majority of car owners, provide cost-effective auto services.\\
+Detailed duty:
+\begin{itemize}
+  \item Responsible for user login module coding.
+  \item Responsible for the back-end database and the vendors and users the back-end server coding.
+\end{itemize}
+
+}
+%------------------------------------------------
+\end{entrylist}
+
+\section{Experieence}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014}
+{CSDN Open Source Campus}
+{CSDN}
+{Memcached performance optimization problem and currently study the issue and solutions}
+%------------------------------------------------
+\entry
+{2013}
+{Yahoo BeiJing Hackday On-Site Final}
+{Yahoo，BeiJing}
+{Write mobile application "AiYou" which records the user's trip Photos, locations and other information. Personally responsible for cell phone background processing.}
+
+\entry
+{2012}
+{Tencent Hackday On-Site Final}
+{Tencent ShenZhen}
+{Write mobile applications "street comment" which gets street view by the mobile phone camera
+Lenses, and display other user's comments on top of the street view.
+Personally responsible for performing background processing.}
+
+\entry
+{2012}
+{Microsoft Imagine Cup}
+{XiDian University}
+{Write mobile reading software "ReadOne" which collects online material to provide users to read, mainly responsible for the recommendation algorithm and user ranking algorithm.}
+
+\entry
+{2011}
+{Internship}
+{Alibaba Inc}
+{Internships in Taobao. Mainly responsible for internal data analysis site Pecker.}
+
+
+\entry
+{2010}
+{MiniSQl Interpreter}
+{XiDian University}
+{Based on the lex and yacc makes a SQl language interpreter with C, implements a simple analysis and SQL syntax
+and storage implementation. Individuals responsible for lexical analysis, syntax analysis and syntax tree construction. }
+
+%------------------------------------------------
+\end{entrylist}
+
+\section{Communication skills}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2012}
+{The MSTC of Xidian}
+{XiDian University}
+{Be an member of the MSTC club of Tech Department of the postgraduate and become echnical experts in the next year.}
+
+\entry
+{2012}
+{The Tencent Innovation Club}
+{XiDian University}
+{Be an member of the Tencent innovation club of Tech Department.}
+
+\entry
+{2009}
+{The MSTC of Xidian}
+{XiDian University}
+{Be an member of the MSTC club of Tech Department of the undergraduate.}
+
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\begin{entrylist}
+%------------------------------------------------
+
+\entry
+{2013}
+{Best Software Award}
+{XiDian SSTA Hackday}
+{"Smart Router", mainly add a web server on the router to provide Internet access, equipment
+control features, personal primarily responsible for background processing}
+
+\entry
+{2013}
+{Postgraduate Scholarship}
+{XiDian University}
+{The First Prize Scholarship for the second year of master.}
+
+\entry
+{2012}
+{Gold Award}
+{Tencent Q robot Competition}
+{Tencent Q robot speech robot application development, and write the corresponding machine
+feedback for the voice input, final software "bai bian xiao dai" won the Gold Award.}
+
+\entry
+{2012}
+{Postgraduate Scholarship}
+{XiDian University}
+{The First Prize Scholarship for the first year of master.}
+
+\entry
+{2011}
+{Bronze Medal}
+{Asia ACM/ICPC Regional}
+{The 2011 ShangHai ACM/ICPC on-site Regional.}
+
+\entry
+{2011}
+{Bronze Medal}
+{Asia ACM/ICPC Regional}
+{The 2011 BeiJing ACM/ICPC on-site Regional.}
+
+\entry
+{2011}
+{Undergraduate Scholarship}
+{XiDian University}
+{The First Prize Scholarship for the senior.}
+
+\entry
+{2010}
+{Bronze Medal}
+{Asia ACM/ICPC Regional}
+{The 2011 TianJin ACM/ICPC on-site Regional.}
+
+\entry
+{2010}
+{Undergraduate Scholarship}
+{XiDian University}
+{The Second Prize Scholarship for the junior.}
+
+\entry
+{2010}
+{First Prize}
+{The Programming Competition Of XiDian University}
+{Xidian University Programming Competition and the contest of the selection of the XiDian University ACM team.}
+
+\entry
+{2010}
+{Second Prize}
+{The  Mathematical Modeling Competition Of XiDian University}
+{Xidian University Mathematical Modeling Competition and the contest of the selection of the XiDian University Mathematical Modeling team.}
+
+\entry
+{2009}
+{Undergraduate Scholarship}
+{XiDian University}
+{The Second Prize Scholarship for the second year student.}
+
+\entry
+{2008}
+{Undergraduate Scholarship}
+{XiDian University}
+{The Second Prize Scholarship for the freshman.}
+
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\end{document}
